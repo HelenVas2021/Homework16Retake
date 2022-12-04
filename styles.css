@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  position: relative;
+}
+
+.container > div {
+  flex-grow: 1;
+  border: 1px solid black;
+  min-height: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.view{
+  visibility: visible;
+  position: absolute;
+  top: 5%
+  
+}
+.viewOrders {
+  visibility: visible;
+  position: absolute;
+ top: 50px; 
+left: 20px;
+}
+.viewOrders>li {
+  margin-top:15px;
+}
+.order{
+  text-align: center;
+  margin-top:40px ;
+}
+
+.invalid {
+  border: 2px dashed red;
+}
+.finish{
+  /* display: flex; */
+  visibility: visible;
+  position: absolute;
+  top:5%;
+}
+.finish>div{
+ 
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #000; 
+
+}
+
+button{
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #4676D7;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 15px;
+}
+.delBtn{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+ border-radius: 5px;
+}
